@@ -12,7 +12,7 @@ import {
 } from "reactstrap";
 
 import { Mutation } from "react-apollo";
-import CREATE_PROJECT from "../../gql/CREATE_PROJECT";
+import CREATE_PROJECT from "../../gql/mapping/CREATE_PROJECT";
 
 
 class AddProjectStep1 extends React.Component {

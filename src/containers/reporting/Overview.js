@@ -5,15 +5,15 @@ import {
   Col
 } from "reactstrap";
 
+import OverviewContent from "../../components/reporting/OverviewContent";
+
 class Overview extends React.Component {
 
   render() {
     return(
-      <Row>
-        <Col>
-          Reporting: Overview
-        </Col>
-      </Row>
+      <>
+        <OverviewContent month={6} />
+      </>
     );
   }
 

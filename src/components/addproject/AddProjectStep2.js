@@ -11,9 +11,9 @@ import {
 } from "reactstrap";
 
 import { Mutation, Query } from "react-apollo";
-import ADD_PEOPLE_TO_PROJECT from "../../gql/ADD_PEOPLE_TO_PROJECT";
-//import PEOPLE_IN_PROJECT from "../../gql/PEOPLE_IN_PROJECT";
-import PEOPLE from "../../gql/PEOPLE";
+import ADD_PEOPLE_TO_PROJECT from "../../gql/mapping/ADD_PEOPLE_TO_PROJECT";
+//import PEOPLE_IN_PROJECT from "../../gql/mapping/PEOPLE_IN_PROJECT";
+import PEOPLE from "../../gql/mapping/PEOPLE";
 import SmartInput from "./SmartInput";
 import buildIndex from "./buildIndex";
 

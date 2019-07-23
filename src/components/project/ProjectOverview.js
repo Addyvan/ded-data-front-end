@@ -1,7 +1,7 @@
 import React from "react";
 
 import {Query} from "react-apollo";
-import PROJECT_OVERVIEW from "../../gql/PROJECT_OVERVIEW";
+import PROJECT_OVERVIEW from "../../gql/mapping/PROJECT_OVERVIEW";
 
 import { Spinner } from "reactstrap";
 

@@ -11,8 +11,8 @@ import {
 } from "reactstrap";
 
 import { Mutation, Query } from "react-apollo";
-import ADD_TAGS_TO_PROJECT from "../../gql/ADD_TAGS_TO_PROJECT";
-import TAGS from "../../gql/TAGS";
+import ADD_TAGS_TO_PROJECT from "../../gql/mapping/ADD_TAGS_TO_PROJECT";
+import TAGS from "../../gql/mapping/TAGS";
 import SmartInput from "./SmartInput";
 import buildIndex from "./buildIndex";
 

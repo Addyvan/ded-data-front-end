@@ -1,7 +1,7 @@
 import React from "react";
 
 import {Query} from "react-apollo";
-import PERSON_OVERVIEW from "../../gql/PERSON_OVERVIEW";
+import PERSON_OVERVIEW from "../../gql/mapping/PERSON_OVERVIEW";
 
 import { Spinner } from "reactstrap";
 

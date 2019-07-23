@@ -1,7 +1,7 @@
 import React from "react";
 
 import {Query} from "react-apollo";
-import TAG_OVERVIEW from "../../gql/TAG_OVERVIEW";
+import TAG_OVERVIEW from "../../gql/mapping/TAG_OVERVIEW";
 
 import { Spinner } from "reactstrap";
 

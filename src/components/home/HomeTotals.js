@@ -8,7 +8,7 @@ import {
 
 import { Translation } from "react-i18next";
 
-import TOTALS from "../../gql/TOTALS";
+import TOTALS from "../../gql/mapping/TOTALS";
 
 import {Query} from "react-apollo";
 

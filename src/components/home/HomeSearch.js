@@ -5,7 +5,7 @@ import { Spinner } from "reactstrap";
 
 import { Translation } from "react-i18next";
 
-import HOME_SEARCH from "../../gql/HOME_SEARCH";
+import HOME_SEARCH from "../../gql/mapping/HOME_SEARCH";
 
 import {Query} from "react-apollo";
 
